@@ -1,0 +1,104 @@
+11:21:08 | [INIT] [SIMULATION] Initializing CityMind simulation...
+11:21:08 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+11:21:08 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+11:21:08 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+11:21:08 | [INIT] [ROADS     ] Road network built. 319 active edges.
+11:21:08 | [INIT] [ML        ] Running crime risk prediction pipeline...
+11:21:08 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+11:21:08 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+11:21:08 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+11:21:08 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94]
+11:21:08 | [INIT] [ROUTING   ] Creating A* emergency router...
+11:21:08 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+11:21:08 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
+11:21:08 | [STEP 01] [SIMULATION] --- Step 1 ---
+11:21:08 | [STEP 01] [FLOOD     ] Road between 189 and 204 flooded!
+11:21:08 | [STEP 01] [ROUTING   ] Team moved to node 27
+11:21:08 | [STEP 01] [ROUTING   ] ROUTE PLANNED: 12 -> 191, 14 steps
+11:21:08 | [STEP 02] [SIMULATION] --- Step 2 ---
+11:21:08 | [STEP 02] [ROUTING   ] Team moved to node 42
+11:21:08 | [STEP 03] [SIMULATION] --- Step 3 ---
+11:21:08 | [STEP 03] [ROUTING   ] Team moved to node 41
+11:21:08 | [STEP 04] [SIMULATION] --- Step 4 ---
+11:21:08 | [STEP 04] [ROUTING   ] Team moved to node 56
+11:21:08 | [STEP 05] [SIMULATION] --- Step 5 ---
+11:21:08 | [STEP 05] [ROUTING   ] Team moved to node 71
+11:21:09 | [STEP 05] [AMBULANCE ] Ambulances re-evaluated. Now at [93, 92, 98]
+11:21:09 | [STEP 05] [ML        ] Crime risk re-evaluated.
+11:21:09 | [STEP 06] [SIMULATION] --- Step 6 ---
+11:21:09 | [STEP 06] [ROUTING   ] Team moved to node 86
+11:21:09 | [STEP 07] [SIMULATION] --- Step 7 ---
+11:21:09 | [STEP 07] [ROUTING   ] Team moved to node 101
+11:21:09 | [STEP 08] [SIMULATION] --- Step 8 ---
+11:21:09 | [STEP 08] [FLOOD     ] Road between 139 and 140 flooded!
+11:21:09 | [STEP 08] [ROUTING   ] Team moved to node 116
+11:21:09 | [STEP 09] [SIMULATION] --- Step 9 ---
+11:21:09 | [STEP 09] [FLOOD     ] Road between 49 and 50 flooded!
+11:21:09 | [STEP 09] [ROUTING   ] Team moved to node 131
+11:21:09 | [STEP 10] [SIMULATION] --- Step 10 ---
+11:21:09 | [STEP 10] [FLOOD     ] Road between 64 and 65 flooded!
+11:21:09 | [STEP 10] [ROUTING   ] Team moved to node 146
+11:21:09 | [STEP 10] [AMBULANCE ] Ambulances re-evaluated. Now at [148, 69, 35]
+11:21:09 | [STEP 10] [ML        ] Crime risk re-evaluated.
+11:21:09 | [STEP 11] [SIMULATION] --- Step 11 ---
+11:21:09 | [STEP 11] [FLOOD     ] Road between 85 and 100 flooded!
+11:21:09 | [STEP 11] [ROUTING   ] Team moved to node 161
+11:21:09 | [STEP 12] [SIMULATION] --- Step 12 ---
+11:21:09 | [STEP 12] [ROUTING   ] Team moved to node 176
+11:21:09 | [STEP 13] [SIMULATION] --- Step 13 ---
+11:21:09 | [STEP 13] [FLOOD     ] Road between 60 and 61 flooded!
+11:21:09 | [STEP 13] [ROUTING   ] Team moved to node 191
+11:21:09 | [STEP 13] [ROUTING   ] CIVILIAN REACHED at node 191
+11:21:09 | [STEP 13] [ROUTING   ] ROUTE PLANNED: 191 -> 112, 12 steps
+11:21:09 | [STEP 14] [SIMULATION] --- Step 14 ---
+11:21:09 | [STEP 14] [ROUTING   ] Team moved to node 176
+11:21:09 | [STEP 15] [SIMULATION] --- Step 15 ---
+11:21:09 | [STEP 15] [ROUTING   ] Team moved to node 175
+11:21:09 | [STEP 15] [AMBULANCE ] Ambulances re-evaluated. Now at [50, 84, 58]
+11:21:09 | [STEP 15] [ML        ] Crime risk re-evaluated.
+11:21:09 | [STEP 16] [SIMULATION] --- Step 16 ---
+11:21:09 | [STEP 16] [FLOOD     ] Road between 25 and 40 flooded!
+11:21:09 | [STEP 16] [ROUTING   ] Team moved to node 160
+11:21:09 | [STEP 17] [SIMULATION] --- Step 17 ---
+11:21:09 | [STEP 17] [FLOOD     ] Road between 157 and 172 flooded!
+11:21:09 | [STEP 17] [ROUTING   ] Team moved to node 145
+11:21:09 | [STEP 18] [SIMULATION] --- Step 18 ---
+11:21:09 | [STEP 18] [ROUTING   ] Team moved to node 130
+11:21:09 | [STEP 19] [SIMULATION] --- Step 19 ---
+11:21:09 | [STEP 19] [ROUTING   ] Team moved to node 115
+11:21:09 | [STEP 20] [SIMULATION] --- Step 20 ---
+11:21:09 | [STEP 20] [FLOOD     ] Road between 103 and 118 flooded!
+11:21:09 | [STEP 20] [ROUTING   ] Team moved to node 100
+11:21:09 | [STEP 20] [AMBULANCE ] Ambulances re-evaluated. Now at [109, 118, 59]
+11:21:09 | [STEP 20] [ML        ] Crime risk re-evaluated.
+11:21:09 | [STEP 20] [SIMULATION] SIMULATION COMPLETE.
+11:21:09 | [STEP 20] [METRIC    ] =======================================================
+  SIMULATION METRICS SUMMARY
+=======================================================
+  Floods triggered:       9
+  Reroutes triggered:     0
+  Civilians rescued:      1
+  Civilians unreachable:  0
+  Ambulance repositions:  4
+  Avg response time:      0.000
+  Worst response time:    0.000
+  GA best fitness:        inf
+  Risk zones (H/M/L):     28/5/192
+  Edges active/blocked:   310/9
+  Disconnected nodes:     0
+  Duration:               1.22s
+=======================================================

@@ -1,0 +1,6 @@
+# challenges package — QuakeResponse disaster response challenge implementations
+from challenges.layout_planning import CSPSolver
+from challenges.road_optimization import build_emergency_corridors
+from challenges.ambulance_placement import deploy_medical_units, redeploy_medical_units_fast
+from challenges.emergency_routing import AStarRouter, create_router
+from challenges.crime_prediction import run_vulnerability_assessment, deploy_sar_teams

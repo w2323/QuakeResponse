@@ -1,0 +1,28 @@
+23:21:02 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+23:21:02 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+23:21:03 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+23:21:03 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+23:21:03 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+23:21:03 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+23:21:04 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+23:21:04 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+23:21:04 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+23:21:04 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+23:21:22 | [INIT] [MEDICAL       ] Medical units deployed at sectors [47, 170, 102] (fitness=9.700)
+23:21:22 | [INIT] [ROUTING       ] Creating A* rescue router...
+23:21:22 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [86, 171, 167, 221, 54]
+23:21:22 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.

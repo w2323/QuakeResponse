@@ -1,0 +1,71 @@
+22:09:38 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:38 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:38 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:38 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:38 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:38 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:38 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:38 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:38 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:38 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:38 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:38 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:38 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:38 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 8 and 9 collapsed!
+22:09:38 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:38 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:38 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:38 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:38 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:38 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:38 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:38 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:38 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:38 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:38 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:38 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:38 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:38 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 8 and 9 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 190 and 205 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 167 and 182 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 34 and 35 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 50 and 65 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 154 and 155 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 42 and 57 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 106 and 107 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 18 and 33 collapsed!
+22:09:38 | [INIT] [AFTERSHOCK    ] Aftershock! Corridor between sector 192 and 207 collapsed!
+22:09:38 | [STEP 01] [SIMULATION    ] --- Step 1 ---
+22:09:38 | [STEP 01] [AFTERSHOCK    ] Aftershock! Corridor between sector 102 and 117 collapsed!
+22:09:38 | [STEP 01] [ROUTING       ] Rescue team moved to sector 27
+22:09:38 | [STEP 01] [ROUTING       ] ROUTE PLANNED: 12 -> 191, 14 steps

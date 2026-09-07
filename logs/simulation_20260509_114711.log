@@ -1,0 +1,41 @@
+11:47:11 | [INIT] [SIMULATION] Initializing CityMind simulation...
+11:47:11 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+11:47:11 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+11:47:11 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+11:47:11 | [INIT] [ROADS     ] Road network built. 319 active edges.
+11:47:11 | [INIT] [ML        ] Running crime risk prediction pipeline...
+11:47:11 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+11:47:11 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+11:47:11 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+11:47:12 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94]
+11:47:12 | [INIT] [ROUTING   ] Creating A* emergency router...
+11:47:12 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+11:47:12 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
+11:47:12 | [INIT] [FLOOD     ] Road between 8 and 9 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 190 and 205 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 167 and 182 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 34 and 35 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 50 and 65 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 154 and 155 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 42 and 57 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 106 and 107 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 18 and 33 flooded!
+11:47:12 | [INIT] [FLOOD     ] Road between 192 and 207 flooded!
+11:47:12 | [STEP 01] [SIMULATION] --- Step 1 ---
+11:47:12 | [STEP 01] [FLOOD     ] Road between 102 and 117 flooded!
+11:47:12 | [STEP 01] [ROUTING   ] Team moved to node 27
+11:47:12 | [STEP 01] [ROUTING   ] ROUTE PLANNED: 12 -> 191, 14 steps

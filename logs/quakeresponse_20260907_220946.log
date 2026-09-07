@@ -1,0 +1,261 @@
+22:09:46 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:46 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:46 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:46 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:46 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:46 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:46 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:46 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:46 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:46 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:46 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:46 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:46 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:46 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:46 | [STEP 01] [SIMULATION    ] --- Step 1 ---
+22:09:46 | [STEP 01] [AFTERSHOCK    ] Aftershock! Corridor between sector 189 and 204 collapsed!
+22:09:46 | [STEP 01] [ROUTING       ] Rescue team moved to sector 27
+22:09:46 | [STEP 01] [ROUTING       ] ROUTE PLANNED: 12 -> 191, 14 steps
+22:09:46 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:46 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:46 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:46 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:46 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:46 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:46 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:46 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:46 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:46 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:46 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:46 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:46 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:46 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:46 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:46 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:46 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:46 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:46 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:46 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:46 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:46 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:46 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:46 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:46 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:46 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:46 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:46 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:46 | [STEP 01] [SIMULATION    ] --- Step 1 ---
+22:09:46 | [STEP 01] [AFTERSHOCK    ] Aftershock! Corridor between sector 189 and 204 collapsed!
+22:09:46 | [STEP 01] [ROUTING       ] Rescue team moved to sector 27
+22:09:46 | [STEP 01] [ROUTING       ] ROUTE PLANNED: 12 -> 191, 14 steps
+22:09:46 | [STEP 02] [SIMULATION    ] --- Step 2 ---
+22:09:46 | [STEP 02] [ROUTING       ] Rescue team moved to sector 42
+22:09:46 | [STEP 03] [SIMULATION    ] --- Step 3 ---
+22:09:46 | [STEP 03] [ROUTING       ] Rescue team moved to sector 41
+22:09:46 | [STEP 04] [SIMULATION    ] --- Step 4 ---
+22:09:46 | [STEP 04] [ROUTING       ] Rescue team moved to sector 56
+22:09:46 | [STEP 05] [SIMULATION    ] --- Step 5 ---
+22:09:46 | [STEP 05] [ROUTING       ] Rescue team moved to sector 71
+22:09:46 | [STEP 05] [MEDICAL       ] Medical units re-evaluated. Now at [93, 92, 98]
+22:09:46 | [STEP 05] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:46 | [STEP 05] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:46 | [STEP 06] [SIMULATION    ] --- Step 6 ---
+22:09:46 | [STEP 06] [ROUTING       ] Rescue team moved to sector 86
+22:09:46 | [STEP 07] [SIMULATION    ] --- Step 7 ---
+22:09:46 | [STEP 07] [ROUTING       ] Rescue team moved to sector 101
+22:09:46 | [STEP 08] [SIMULATION    ] --- Step 8 ---
+22:09:46 | [STEP 08] [AFTERSHOCK    ] Aftershock! Corridor between sector 139 and 140 collapsed!
+22:09:46 | [STEP 08] [ROUTING       ] Rescue team moved to sector 116
+22:09:46 | [STEP 09] [SIMULATION    ] --- Step 9 ---
+22:09:46 | [STEP 09] [AFTERSHOCK    ] Aftershock! Corridor between sector 49 and 50 collapsed!
+22:09:46 | [STEP 09] [ROUTING       ] Rescue team moved to sector 131
+22:09:46 | [STEP 10] [SIMULATION    ] --- Step 10 ---
+22:09:46 | [STEP 10] [AFTERSHOCK    ] Aftershock! Corridor between sector 64 and 65 collapsed!
+22:09:46 | [STEP 10] [ROUTING       ] Rescue team moved to sector 146
+22:09:46 | [STEP 10] [MEDICAL       ] Medical units re-evaluated. Now at [148, 69, 35]
+22:09:46 | [STEP 10] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:46 | [STEP 10] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:46 | [STEP 11] [SIMULATION    ] --- Step 11 ---
+22:09:46 | [STEP 11] [AFTERSHOCK    ] Aftershock! Corridor between sector 85 and 100 collapsed!
+22:09:46 | [STEP 11] [ROUTING       ] Rescue team moved to sector 161
+22:09:46 | [STEP 12] [SIMULATION    ] --- Step 12 ---
+22:09:46 | [STEP 12] [ROUTING       ] Rescue team moved to sector 176
+22:09:46 | [STEP 13] [SIMULATION    ] --- Step 13 ---
+22:09:46 | [STEP 13] [AFTERSHOCK    ] Aftershock! Corridor between sector 60 and 61 collapsed!
+22:09:46 | [STEP 13] [ROUTING       ] Rescue team moved to sector 191
+22:09:46 | [STEP 13] [ROUTING       ] SURVIVOR REACHED at sector 191
+22:09:46 | [STEP 13] [ROUTING       ] ROUTE PLANNED: 191 -> 112, 12 steps
+22:09:46 | [STEP 14] [SIMULATION    ] --- Step 14 ---
+22:09:46 | [STEP 14] [ROUTING       ] Rescue team moved to sector 176
+22:09:46 | [STEP 15] [SIMULATION    ] --- Step 15 ---
+22:09:46 | [STEP 15] [ROUTING       ] Rescue team moved to sector 175
+22:09:46 | [STEP 15] [MEDICAL       ] Medical units re-evaluated. Now at [50, 84, 58]
+22:09:46 | [STEP 15] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:46 | [STEP 15] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:46 | [STEP 16] [SIMULATION    ] --- Step 16 ---
+22:09:46 | [STEP 16] [AFTERSHOCK    ] Aftershock! Corridor between sector 25 and 40 collapsed!
+22:09:46 | [STEP 16] [ROUTING       ] Rescue team moved to sector 160
+22:09:46 | [STEP 17] [SIMULATION    ] --- Step 17 ---
+22:09:46 | [STEP 17] [AFTERSHOCK    ] Aftershock! Corridor between sector 157 and 172 collapsed!
+22:09:46 | [STEP 17] [ROUTING       ] Rescue team moved to sector 145
+22:09:46 | [STEP 18] [SIMULATION    ] --- Step 18 ---
+22:09:46 | [STEP 18] [ROUTING       ] Rescue team moved to sector 130
+22:09:46 | [STEP 19] [SIMULATION    ] --- Step 19 ---
+22:09:46 | [STEP 19] [ROUTING       ] Rescue team moved to sector 115
+22:09:46 | [STEP 20] [SIMULATION    ] --- Step 20 ---
+22:09:46 | [STEP 20] [AFTERSHOCK    ] Aftershock! Corridor between sector 103 and 118 collapsed!
+22:09:46 | [STEP 20] [ROUTING       ] Rescue team moved to sector 100
+22:09:46 | [STEP 20] [MEDICAL       ] Medical units re-evaluated. Now at [109, 118, 59]
+22:09:46 | [STEP 20] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:46 | [STEP 20] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:46 | [INIT] [SIMULATION    ] Initializing QuakeResponse disaster simulation...
+22:09:46 | [INIT] [LAYOUT        ] Running CSP solver for resource zone planning...
+22:09:47 | [INIT] [LAYOUT        ] Emergency resource zones assigned successfully via CSP.
+22:09:47 | [INIT] [ROADS         ] Building emergency corridor network (MST + redundancy)...
+22:09:47 | [INIT] [ROADS         ] Emergency corridors built. 319 active corridors.
+22:09:47 | [INIT] [VULNERABILITY ] Running structural vulnerability assessment pipeline...
+22:09:47 | [INIT] [VULNERABILITY ] Vulnerability assessment complete. HIGH=5, MEDIUM=29, LOW=191
+22:09:47 | [INIT] [VULNERABILITY ] Decision Tree rules:
+IF occupancy_density <= 0.610 (gini=0.069):
+  IF hazard_proximity <= 0.750 (gini=0.030):
+    IF occupancy_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF hazard_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+22:09:47 | [INIT] [VULNERABILITY ] 10 SAR teams deployed to sectors: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+22:09:47 | [INIT] [MEDICAL       ] Running GA for medical unit deployment...
+22:09:47 | [INIT] [MEDICAL       ] Medical units deployed at sectors [87, 168, 94] (fitness=10.500)
+22:09:47 | [INIT] [ROUTING       ] Creating A* rescue router...
+22:09:47 | [INIT] [ROUTING       ] Rescue mission set. Start: sector 12. Trapped survivors at: [191, 112, 74, 192, 27]
+22:09:47 | [INIT] [SIMULATION    ] Initialization complete. All 5 challenges ready.
+22:09:47 | [STEP 01] [SIMULATION    ] --- Step 1 ---
+22:09:47 | [STEP 01] [AFTERSHOCK    ] Aftershock! Corridor between sector 189 and 204 collapsed!
+22:09:47 | [STEP 01] [ROUTING       ] Rescue team moved to sector 27
+22:09:47 | [STEP 01] [ROUTING       ] ROUTE PLANNED: 12 -> 191, 14 steps
+22:09:47 | [STEP 02] [SIMULATION    ] --- Step 2 ---
+22:09:47 | [STEP 02] [ROUTING       ] Rescue team moved to sector 42
+22:09:47 | [STEP 03] [SIMULATION    ] --- Step 3 ---
+22:09:47 | [STEP 03] [ROUTING       ] Rescue team moved to sector 41
+22:09:47 | [STEP 04] [SIMULATION    ] --- Step 4 ---
+22:09:47 | [STEP 04] [ROUTING       ] Rescue team moved to sector 56
+22:09:47 | [STEP 05] [SIMULATION    ] --- Step 5 ---
+22:09:47 | [STEP 05] [ROUTING       ] Rescue team moved to sector 71
+22:09:47 | [STEP 05] [MEDICAL       ] Medical units re-evaluated. Now at [93, 92, 98]
+22:09:47 | [STEP 05] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:47 | [STEP 05] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:47 | [STEP 06] [SIMULATION    ] --- Step 6 ---
+22:09:47 | [STEP 06] [ROUTING       ] Rescue team moved to sector 86
+22:09:47 | [STEP 07] [SIMULATION    ] --- Step 7 ---
+22:09:47 | [STEP 07] [ROUTING       ] Rescue team moved to sector 101
+22:09:47 | [STEP 08] [SIMULATION    ] --- Step 8 ---
+22:09:47 | [STEP 08] [AFTERSHOCK    ] Aftershock! Corridor between sector 139 and 140 collapsed!
+22:09:47 | [STEP 08] [ROUTING       ] Rescue team moved to sector 116
+22:09:47 | [STEP 09] [SIMULATION    ] --- Step 9 ---
+22:09:47 | [STEP 09] [AFTERSHOCK    ] Aftershock! Corridor between sector 49 and 50 collapsed!
+22:09:47 | [STEP 09] [ROUTING       ] Rescue team moved to sector 131
+22:09:47 | [STEP 10] [SIMULATION    ] --- Step 10 ---
+22:09:47 | [STEP 10] [AFTERSHOCK    ] Aftershock! Corridor between sector 64 and 65 collapsed!
+22:09:47 | [STEP 10] [ROUTING       ] Rescue team moved to sector 146
+22:09:47 | [STEP 10] [MEDICAL       ] Medical units re-evaluated. Now at [148, 69, 35]
+22:09:47 | [STEP 10] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:47 | [STEP 10] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:47 | [STEP 11] [SIMULATION    ] --- Step 11 ---
+22:09:47 | [STEP 11] [AFTERSHOCK    ] Aftershock! Corridor between sector 85 and 100 collapsed!
+22:09:47 | [STEP 11] [ROUTING       ] Rescue team moved to sector 161
+22:09:47 | [STEP 12] [SIMULATION    ] --- Step 12 ---
+22:09:47 | [STEP 12] [ROUTING       ] Rescue team moved to sector 176
+22:09:47 | [STEP 13] [SIMULATION    ] --- Step 13 ---
+22:09:47 | [STEP 13] [AFTERSHOCK    ] Aftershock! Corridor between sector 60 and 61 collapsed!
+22:09:47 | [STEP 13] [ROUTING       ] Rescue team moved to sector 191
+22:09:47 | [STEP 13] [ROUTING       ] SURVIVOR REACHED at sector 191
+22:09:47 | [STEP 13] [ROUTING       ] ROUTE PLANNED: 191 -> 112, 12 steps
+22:09:47 | [STEP 14] [SIMULATION    ] --- Step 14 ---
+22:09:47 | [STEP 14] [ROUTING       ] Rescue team moved to sector 176
+22:09:47 | [STEP 15] [SIMULATION    ] --- Step 15 ---
+22:09:47 | [STEP 15] [ROUTING       ] Rescue team moved to sector 175
+22:09:47 | [STEP 15] [MEDICAL       ] Medical units re-evaluated. Now at [50, 84, 58]
+22:09:47 | [STEP 15] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:47 | [STEP 15] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:47 | [STEP 16] [SIMULATION    ] --- Step 16 ---
+22:09:47 | [STEP 16] [AFTERSHOCK    ] Aftershock! Corridor between sector 25 and 40 collapsed!
+22:09:47 | [STEP 16] [ROUTING       ] Rescue team moved to sector 160
+22:09:47 | [STEP 17] [SIMULATION    ] --- Step 17 ---
+22:09:47 | [STEP 17] [AFTERSHOCK    ] Aftershock! Corridor between sector 157 and 172 collapsed!
+22:09:47 | [STEP 17] [ROUTING       ] Rescue team moved to sector 145
+22:09:47 | [STEP 18] [SIMULATION    ] --- Step 18 ---
+22:09:47 | [STEP 18] [ROUTING       ] Rescue team moved to sector 130
+22:09:47 | [STEP 19] [SIMULATION    ] --- Step 19 ---
+22:09:47 | [STEP 19] [ROUTING       ] Rescue team moved to sector 115
+22:09:47 | [STEP 20] [SIMULATION    ] --- Step 20 ---
+22:09:47 | [STEP 20] [AFTERSHOCK    ] Aftershock! Corridor between sector 103 and 118 collapsed!
+22:09:47 | [STEP 20] [ROUTING       ] Rescue team moved to sector 100
+22:09:47 | [STEP 20] [MEDICAL       ] Medical units re-evaluated. Now at [109, 118, 59]
+22:09:47 | [STEP 20] [VULNERABILITY ] Structural vulnerability re-evaluated.
+22:09:47 | [STEP 20] [VULNERABILITY ] SAR teams re-deployed to updated vulnerability zones.
+22:09:47 | [STEP 20] [SIMULATION    ] DISASTER RESPONSE SIMULATION COMPLETE.
+22:09:47 | [STEP 20] [METRIC        ] =======================================================
+  DISASTER RESPONSE METRICS SUMMARY
+=======================================================
+  Aftershocks triggered:  9
+  Reroutes triggered:     0
+  Survivors rescued:      1
+  Survivors unreachable:  0
+  Medical repositions:    4
+  Avg response time:      0.000
+  Worst response time:    0.000
+  GA best fitness:        10.500
+  Risk zones (H/M/L):     28/5/192
+  Corridors active/blocked: 310/9
+  Disconnected sectors:   0
+  Duration:               0.38s
+=======================================================

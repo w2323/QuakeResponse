@@ -1,0 +1,112 @@
+12:48:26 | [INIT] [SIMULATION] Initializing CityMind simulation...
+12:48:26 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+12:48:26 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+12:48:26 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+12:48:26 | [INIT] [ROADS     ] Road network built. 319 active edges.
+12:48:26 | [INIT] [ML        ] Running crime risk prediction pipeline...
+12:48:26 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+12:48:26 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+12:48:26 | [INIT] [ML        ] 10 police officers deployed to nodes: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+12:48:26 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+12:48:26 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94] (fitness=10.500)
+12:48:26 | [INIT] [ROUTING   ] Creating A* emergency router...
+12:48:26 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+12:48:26 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
+12:48:26 | [INIT] [SIMULATION] Initializing CityMind simulation...
+12:48:26 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+12:48:26 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+12:48:26 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+12:48:26 | [INIT] [ROADS     ] Road network built. 319 active edges.
+12:48:26 | [INIT] [ML        ] Running crime risk prediction pipeline...
+12:48:26 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+12:48:26 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+12:48:26 | [INIT] [ML        ] 10 police officers deployed to nodes: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+12:48:26 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+12:48:26 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94] (fitness=10.500)
+12:48:26 | [INIT] [ROUTING   ] Creating A* emergency router...
+12:48:26 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+12:48:26 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
+12:48:26 | [INIT] [SIMULATION] Initializing CityMind simulation...
+12:48:26 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+12:48:26 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+12:48:26 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+12:48:26 | [INIT] [ROADS     ] Road network built. 319 active edges.
+12:48:26 | [INIT] [ML        ] Running crime risk prediction pipeline...
+12:48:26 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+12:48:26 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+12:48:26 | [INIT] [ML        ] 10 police officers deployed to nodes: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+12:48:26 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+12:48:26 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94] (fitness=10.500)
+12:48:26 | [INIT] [ROUTING   ] Creating A* emergency router...
+12:48:26 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+12:48:26 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
+12:48:26 | [INIT] [SIMULATION] Initializing CityMind simulation...
+12:48:26 | [INIT] [LAYOUT    ] Running CSP solver for city layout...
+12:48:27 | [INIT] [LAYOUT    ] City layout assigned successfully via CSP.
+12:48:27 | [INIT] [ROADS     ] Building road network (MST + redundancy)...
+12:48:27 | [INIT] [ROADS     ] Road network built. 319 active edges.
+12:48:27 | [INIT] [ML        ] Running crime risk prediction pipeline...
+12:48:27 | [INIT] [ML        ] Crime risk prediction complete. HIGH=5, MEDIUM=29, LOW=191
+12:48:27 | [INIT] [ML        ] Decision Tree rules:
+IF population_density <= 0.610 (gini=0.069):
+  IF industrial_proximity <= 0.750 (gini=0.030):
+    IF population_density <= 0.487 (gini=0.019):
+      → PREDICT: LOW
+    ELSE:
+      IF industrial_proximity <= 0.194 (gini=0.000):
+        → PREDICT: LOW
+      ELSE:
+        → PREDICT: MEDIUM
+  ELSE:
+    → PREDICT: HIGH
+ELSE:
+  → PREDICT: MEDIUM
+
+12:48:27 | [INIT] [ML        ] 10 police officers deployed to nodes: 209, 33, 155, 74, 191, 85, 86, 102, 223, 116
+12:48:27 | [INIT] [AMBULANCE ] Running GA for ambulance placement...
+12:48:27 | [INIT] [AMBULANCE ] Ambulances placed at nodes [87, 168, 94] (fitness=10.500)
+12:48:27 | [INIT] [ROUTING   ] Creating A* emergency router...
+12:48:27 | [INIT] [ROUTING   ] Mission set. Start: node 12. Civilians at: [191, 112, 74, 192, 27]
+12:48:27 | [INIT] [SIMULATION] Initialization complete. All 5 challenges ready.
